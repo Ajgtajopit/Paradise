@@ -142,10 +142,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "yang bener dong"
-            os.system('xdg-open https://wa.me/6285691015635')
+            os.system('xdg-open https://wa.me/6285236270008')
     else:
         print "salah sayang!"
-        os.system('xdg-open https://wa.me/6285691015635')
+        os.system('xdg-open https://wa.me/6285236270008')
 		
 ##### LOGIN #####
 #================#
@@ -296,7 +296,7 @@ def pilih():
 		os.remove('out')
 	elif zedd =="8":
 		os.system('rm -rf login.txt')
-		os.system('xdg-open https://github.com/Ajgtajopit')
+		os.system('xdg-open https://github.com/Al-hfiz')
 		kel
 	elif zedd =="0":
 		keluar()
