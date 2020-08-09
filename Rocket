@@ -1,10 +1,3 @@
-#!/usr/bin/python
-# coding=utf-8
-#simple man
-#A programmer
-#Al-hfiz
-
-
 #Import module
 import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
 from multiprocessing.pool import ThreadPool
@@ -133,8 +126,8 @@ def masuk():
 		print"\033[1;91m[!] Wrong input"
 		keluar()
 		
-CorrectUsername = "jackroo-eng"
-CorrectPassword = "password nai"
+CorrectUsername = "Al-hafiz"
+CorrectPassword = "Hafiz"
 
 loop = 'true'
 while (loop == 'true'):
