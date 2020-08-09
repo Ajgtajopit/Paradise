@@ -1,2 +1,2 @@
-# Paradise
-# Hal yang baik akan datang dengan yang baik begitu sebaliknya
+## Hal yang baik akan datang dengan baik begitu sebaliknya
+* Kurangi otak kotormu dan berbuatlah kebaikan dengan hati yang tulus
